@@ -101,12 +101,20 @@ h1 {
 .play__again {
   display: block;
   margin: 0 auto 10px;
-  border-radius: 7px;
+  border: 7px;
   padding: 8px;
   width: 21%;
-  font-size: 1rem;
+  font-size: 0.9rem;
   background-color: var(--body-color);
+  border: 1px solid;
+  border-radius: 8px;
   cursor: pointer;
+  font-weight: 600;
+}
+
+.play__again:hover {
+  background-color: #fffae7;
+  border: none;
 }
 
 .alphabet {
